@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jannat",
+      "username": "janu",
+      "email": "jannat@gmail.com",
+      "phone": "1234",
+      "website": "janu.org"
+    },
+    {
+      "id": 2,
+      "name": "Fariya",
+      "username": "faru",
+      "email": "faru@gmail.com",
+      "phone": "5678",
+      "website": "faru.org"
+    },
+    {
+      "id": 3,
+      "name": "Rahul",
+      "username": "rahulr",
+      "email": "rahul@gmail.com",
+      "phone": "9012",
+      "website": "rahulr.org"
+    },
+    {
+      "id": 4,
+      "name": "Anika",
+      "username": "anika_a",
+      "email": "anika@gmail.com",
+      "phone": "3456",
+      "website": "anika.org"
+    },
+    {
+      "id": 5,
+      "name": "Siddharth",
+      "username": "sid_s",
+      "email": "sid@gmail.com",
+      "phone": "7890",
+      "website": "sid.org"
+    },
+    {
+      "id": 6,
+      "name": "Meera",
+      "username": "meera_m",
+      "email": "meera@gmail.com",
+      "phone": "1122",
+      "website": "meera.org"
+    },
+    {
+      "id": 7,
+      "name": "Vikram",
+      "username": "vik_v",
+      "email": "vikram@gmail.com",
+      "phone": "3344",
+      "website": "vikram.org"
+    }
+  ]
+}
