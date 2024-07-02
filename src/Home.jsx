@@ -38,8 +38,11 @@ function Home() {
                 <td>{d.email}</td>
                 <td>{d.phone}</td>
                 <td>
-                <button className="btn btn-sm btn-info me-2">Read</button>
-                  <button className="btn btn-sm btn-primary me-2">Edit</button>
+                {/* <button className="btn btn-sm btn-info me-2">Read</button>
+                  <button className="btn btn-sm btn-primary me-2">Edit</button> */}
+                  <Link to={`/read/${d.id}`} className="btn btn-sm btn-info me-2">Read</Link>
+
+<Link to={`/update/${d.id}`} className="btn btn-sm btn-primary me-2">Edit</Link>
                   <button className="btn btn-sm btn-danger">Delete</button>
                 </td>
               </tr>
