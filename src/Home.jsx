@@ -13,15 +13,15 @@ function Home() {
       .catch((err) => console.assert.log(err));
   }, []);
 
-//   const handleDelete=(id)=>{
-//     const confirm  =window.confirm("Would you like to delete?")
-//     if(confirm){
-//         axios.delete("http://localhost:3000/users/"+id)
-//         .then(res=>{
-//             // eslint-disable-next-line no-restricted-globals
-//             location.reload();
-//         }).catch((err) => console.log(err));
-//     }
+  const handleDelete=(id)=>{
+    const confirm  =window.confirm("Would you like to delete?")
+    if(confirm){
+        axios.delete("http://localhost:3000/users/"+id)
+        .then(res=>{
+            // eslint-disable-next-line no-restricted-globals
+            location.reload();
+        }).catch((err) => console.log(err));
+    }
 };
 
 
