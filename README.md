@@ -28,3 +28,19 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built w
    ```bash
    git clone https://github.com/your-username/react-crud-operation.git
    cd react-crud-operation
+   ```
+
+2. Install dependencies:
+```sh
+npm install
+```
+3. Start the JSON Server:
+```sh
+npx json-server --watch db.json 
+```
+4. Start the React application:
+```sh
+npm start
+```
+
+
