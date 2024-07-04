@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Custom styles for very small screens */
+@media (max-width: 780px) {
+  .custom-table {
+    font-size: 0.9rem;
+  }
+
+  .custom-table th, .custom-table td {
+    padding: 0.5rem;
+  }
+
+  .custom-form {
+    width: 100% !important;
+  }
+
+  .custom-container {
+    padding: 1rem;
+  }
+}
